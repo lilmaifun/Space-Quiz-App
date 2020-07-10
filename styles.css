@@ -1,0 +1,86 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    background: url('images/space-wallpaper.jpg') center fixed;
+   
+    background-size: cover;                   
+    
+    
+}
+
+main {
+    margin: 0 auto;
+    width: 75%;
+}
+
+form {
+    margin-top: 20px;
+    border: 1px black solid;
+    padding: 20px;
+    background-color: white;
+    border: 7px solid rgb(226, 170, 66);
+}
+
+img {
+    width: 100%;
+    border: 3px solid rgb(75, 6, 75);
+}
+
+header {
+    text-align: center;
+    color:rgb(244, 237, 250);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+h3 {
+    text-align: center;
+}
+
+.right-button {
+    text-align: right;
+}
+
+#start-quiz {
+    text-align: center;
+}
+
+#welcome-image {
+    margin-bottom: 20px;
+}
+
+#end-screen {
+    text-align: center;
+}
+
+button {
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: black;
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(45, 81, 241);
+}
+
+@media only screen and (min-width: 504px) {
+    img {
+        max-height: 400px;
+        object-fit: cover;
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    body {
+        padding-top: 50px;
+    }
+    main {
+        width: 50%;
+    }
+}
