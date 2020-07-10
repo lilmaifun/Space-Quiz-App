@@ -3,7 +3,7 @@ body * {
 }
 
 body {
-    background: url('images/space-wallpaper.jpg') center fixed;
+    background: url('images/space-wallpaper3.jpg') center fixed;
    
     background-size: cover;                   
     
@@ -20,12 +20,12 @@ form {
     border: 1px black solid;
     padding: 20px;
     background-color: white;
-    border: 7px solid rgb(226, 170, 66);
+    border: 10px solid black;
 }
 
 img {
     width: 100%;
-    border: 3px solid rgb(75, 6, 75);
+    border: 7px solid red;
 }
 
 header {

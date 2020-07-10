@@ -132,7 +132,7 @@ function getHomeScreenHtml() {
   return `
   <form id = 'start-quiz'>
     <h2>Welcome!</h2>
-    <img id = 'welcome-image' src="images/space_4.jpg" alt="A picture of a bunch of planets revoving around a star.">
+    <img id = 'welcome-image' src="images/space_6.jpg" alt="A picture of a bunch of planets revoving around a star.">
     <button class='start-quiz'>Start Quiz</button>
   </form>`;
 }
